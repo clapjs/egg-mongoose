@@ -2,11 +2,11 @@
 
 const mock = require('egg-mock');
 
-describe('test/clap-mongoose.test.js', () => {
+describe('test/mongoose.test.js', () => {
   let app;
   before(() => {
     app = mock.app({
-      baseDir: 'apps/clap-mongoose-test',
+      baseDir: 'apps/mongoose-test',
     });
     return app.ready();
   });
@@ -17,7 +17,7 @@ describe('test/clap-mongoose.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, clapMongoose')
+      .expect('hi, mongoose')
       .expect(200);
   });
 });

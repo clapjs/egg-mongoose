@@ -8,7 +8,7 @@ class AppBootHook {
   }
 
   async didLoad() {
-    if (this.agent.config.clapMongoose.agent) mongoose(this.agent);
+    if (this.agent.config.mongoose.agent) mongoose(this.agent);
   }
 
   async willReady() {

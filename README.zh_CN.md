@@ -1,4 +1,4 @@
-# egg-clap-mongoose
+# egg-mongoose
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-clap-mongoose.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-clap-mongoose
-[travis-image]: https://img.shields.io/travis/eggjs/egg-clap-mongoose.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-clap-mongoose
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-clap-mongoose.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-clap-mongoose?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-clap-mongoose.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-clap-mongoose
-[snyk-image]: https://snyk.io/test/npm/egg-clap-mongoose/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-clap-mongoose
-[download-image]: https://img.shields.io/npm/dm/egg-clap-mongoose.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-clap-mongoose
+[npm-image]: https://img.shields.io/npm/v/egg-mongoose.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-mongoose
+[travis-image]: https://img.shields.io/travis/eggjs/egg-mongoose.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-mongoose
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-mongoose.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-mongoose?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-mongoose.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-mongoose
+[snyk-image]: https://snyk.io/test/npm/egg-mongoose/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-mongoose
+[download-image]: https://img.shields.io/npm/dm/egg-mongoose.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-mongoose
 
 <!--
 Description here.
@@ -28,7 +28,7 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-clap-mongoose 版本 | egg 1.x
+egg-mongoose 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -47,9 +47,9 @@ egg-clap-mongoose 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.clapMongoose = {
+exports.mongoose = {
   enable: true,
-  package: 'egg-clap-mongoose',
+  package: 'egg-mongoose',
 };
 ```
 

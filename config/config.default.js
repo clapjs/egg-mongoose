@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * egg-clap-mongoose default config
- * @member Config#clapMongoose
+ * egg-mongoose default config
+ * @member Config#mongoose
  * @property {String} SOME_KEY - some description
  */
-exports.clapMongoose = {
+exports.mongoose = {
     app: true,
     agent: false,
 };
