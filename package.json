@@ -11,6 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "assert": "^2.0.0",
     "mongoose": "^6.4.4",
     "mongoose-deep-populate": "^3.2.0"
   },
@@ -37,10 +38,10 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "config",
-    "app"
+    "agent.js",
+    "lib",
+    "app.js"
   ],
   "ci": {
     "version": "8, 10"

@@ -6,6 +6,6 @@
  * @property {String} SOME_KEY - some description
  */
 exports.mongoose = {
-    app: true,
-    agent: false,
+  app: true,
+  agent: false,
 };
